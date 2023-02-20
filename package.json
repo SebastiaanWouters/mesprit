@@ -1,0 +1,41 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint --ext .ts,.js,.vue ."
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^12.0.0",
+    "@nuxtjs/tailwindcss": "^6.4.0",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "nuxt": "^3.2.0",
+    "prettier": "^2.8.4",
+    "prisma": "^4.10.1"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.10",
+    "@heroicons/vue": "^2.0.16",
+    "@pinia/nuxt": "^0.4.6",
+    "@prisma/client": "4.10.1",
+    "@tailwindcss/typography": "^0.5.9",
+    "@vueuse/components": "^9.13.0",
+    "@vueuse/core": "^9.13.0",
+    "ioredis": "^5.3.1",
+    "marked": "^4.2.12",
+    "nostr-relaypool-fork": "^0.5.2",
+    "nostr-tools": "^1.5.0",
+    "pinia": "^2.0.30",
+    "ws": "^8.12.1"
+  }
+}
